@@ -163,7 +163,7 @@ def complete_task(query):
             min1+=1
         speak('what do you want to send')
         text = takecommand()
-        pywhatkit.sendwhatmsg('+919399077082',text,hour1,min1)
+        pywhatkit.sendwhatmsg('+91 the mobile no . ',text,hour1,min1)
         speak('message has been sent')
           
     elif 'game' in query:
